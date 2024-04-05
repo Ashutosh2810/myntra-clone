@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    display: flex;
+    height: 80px;
+    background-color: antiquewhite;
+    align-items: center;        /*all item get centerd from top -bottom*/
+    justify-content: space-between;
+    padding: 0 2%;
+}    
+
+.logo_container {
+    height: 40px;
+
+}
+.logo_container img{
+    height: 100%;
+}
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between; /*horizontally spacing btw elem*/
+    min-width: 500px;
+    font-size: 15px;
+    min-width: 500px;
+    text-transform: uppercase;   /* mix case to what u want*/
+}
+
+.nav_bar a{
+    text-decoration: none;  /* remove underline*/
+    color: rgb(12, 11, 11);
+}
+.nav_bar a sup{
+    color: brown;
+    font-size: 12px;
+}
+
+.search_bar{
+    display: flex;
+    height: 40px;
+    background-color: rgb(215, 197, 173);
+    min-width: 350px;
+}
+
+.search_text{
+    flex-grow: 1;
+    background: #f5f5f6;
+    border: 0;
+}
+.material-symbols-outlined{
+    box-sizing: border-box;
+    padding: 7px;
+    border-radius: 4px 4px 4px 4px;
+}
+.search_text:focus{
+    outline: none;
+}
+
+.action_bar{
+    display: flex;
+    justify-content: space-between;
+    min-width: 200px;
+}
+
+.action_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner_container{
+    width: 100vw;               /*doesnt mean scrolling stops*/
+    margin: 30px 0;
+}
+.banner_container img{          
+    width: 100%;              /*but now the horizonatl scrolling stops*/
+}   
+
+.cataegory_heading{
+    text-transform: uppercase;
+    color: rgb(98, 96, 96);
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+    letter-spacing: .15em;
+    margin-bottom: 20px;
+}
+
+.cataegory_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sale_item{
+    width: 225px;
+}
+
+.footer_container{
+    display: flex;
+    justify-content:space-around;
+    background-color: #a4a1a1;
+    padding: 30px 0 40 px 0;
+}
+
+.footer_coloum{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer_coloum h3{
+    font-size: medium;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif ;
+    color: black;
+}
+
+.footer_coloum a{
+    padding-top: 15px;
+    color: rgb(68, 67, 67);
+    font-size: 15px;
+    text-decoration: none;
+}
+.copyright{
+    display:flex;
+    justify-content: center;
+
+}
